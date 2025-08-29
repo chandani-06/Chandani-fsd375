@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        table,th,td{
+            border : 1px solid black;
+            border-collapse: collapse;
+        }
+        td{
+            background-color: bisque;
+        }
+        th,td{
+            border: 2px solid black;
+            border-radius:20px ;
+            border-style: dotted;
+            text-align: center; 
+            padding: 50px;
+            border-spacing: 50px;
+        }
+        td:nth-child(even){
+            background-color:rgb(69, 187, 226);
+        }
+        td:hover{
+            background-color: yellow;
+        }
+    
+        
+    </style>
+</head>
+<body>
+    <table style="width:40px">
+<caption>Student Details</caption>
+<colgroup>
+    <col span="1"style="background-color:lightblue">
+</colgroup>
+        <tr>
+            
+            <th colspan="2">Name</th>
+            <th>Roll No.</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Chandani Maurya</td>
+            <td>375</td>
+        </tr>
+    </table>
+    <ol>
+        <li>bag</li>
+        <li>waterbottle</li>
+        <li>notebooks</li>
+        <li>laptop</li>
+    </ol>
+    <ul>
+        <li>students</li>
+        <li>calculator</li>
+        <li>mobilephones</li>
+    </ul>
+</body>
+</html>
